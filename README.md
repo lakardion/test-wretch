@@ -6,11 +6,9 @@ Trying out wretch. A minimal wrapper around fetch.
 
 I've been reluctantly using axios lately.
 
-Fetch has become really good and I don't really see the point in continuing using axios. `wretch` makes the migration way simpler and it has cool features on top of `fetch`.
+Fetch has become really good and I don't really see the point in continuing using axios. `wretch` makes the migration way simpler and it has cool features on top of `fetch`. Moreover `axios` is 5x bigger than `wretch`
 
 My main goal in this repo was to replicate what a regular axios interceptor can do. So in `services/auth.ts` added an apiAuth method to inject the auth token to every request through a middleware.
-
-Moreover `axios` is 5x bigger than `wretch`
 
 # Context
 
